@@ -4,9 +4,7 @@ function fib(n) {
     if (n === 0) {
         return 0;
     } else {
-        let prev = 0;
-        let final = 1;
-        let store = 0;
+        let prev = 0, final = 1, store = 0;
         for (let i = 0; i < n - 1; i = i + 1) {
             store = prev;
             prev = final;
